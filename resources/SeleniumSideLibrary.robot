@@ -1,8 +1,11 @@
+# this is common library for robot script.
+# Selenium IDE script != robot keywords.
+
+# notice ! this support Selenium3.0 ,not for Selenium2.0 keywords TODO
 *** Settings ***
 Documentation     This resource define keywords of SeleniumHQ in Robot Framework
-Library           Selenium2Library
-# notice ! support Selenium2.0
-# not for Selenium3.0 keywords
+Library           SeleniumLibrary
+
 *** Keywords ***
 open
     [Arguments]    ${element}

@@ -1,8 +1,7 @@
 # Robot-Framework-Formatter
 Source code Selenium IDE: Robot Framework Formatter
 
-seleniumLibrary.robot:
-https://github.com/NeverSmileK57CLC/Robot-Framework-Formatter/blob/master/resources/seleniumLibrary.robot
+seleniumLibrary.robot: /resources/seleniumLibrary.robot
 
 These are common keywords to run Robot Framework, you can write some keywords to improve this.
 

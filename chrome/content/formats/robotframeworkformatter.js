@@ -158,7 +158,8 @@ options.header =
     '*** Settings ***\n' +
     'Suite Setup    Open Browser    ${baseURL}    ${environment}\n' +
     'Suite Teardown    Close Browser\n'+
-    'Resource    seleniumLibrary.robot\n\n'+
+    'Resource    seleniumLibrary.robot\n'+
+	'# get  https://github.com/youwi/Robot-Framework-Formatter/tree/master/resources\n\n'+
     '*** Variables ***\n' +
     '${${homepage}}' + '    ${baseURL}\n\n'+
     '*** Test Cases ***\n';
